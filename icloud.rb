@@ -1,4 +1,4 @@
-class icloud < Formula
+class Icloud < Formula
   desc "Simplest CLI interface for icloud"
   homepage "https://github.com/Cj-bc/icloud"
   url "https://github.com/Cj-bc/icloud.git"
@@ -7,7 +7,7 @@ class icloud < Formula
 
   def install
     system "mv", "icloud.sh", "icloud"
-    bin.install icloud
+    bin.install "icloud"
   end
 
 end
